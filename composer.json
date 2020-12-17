@@ -1,0 +1,30 @@
+{
+    "name": "doubledropco/webpack-typescript-sass-wp-plugin",
+    "description": "WordPress Plugin Boilerplate",
+    "type": "wordpresss-plugin",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "phpcsstandards/phpcsutils": "^1.0.0-alpha3",
+        "phpcsstandards/phpcsextra": "^1.0.0-alpha3",
+        "phpunit/phpunit": "^8",
+        "php-stubs/wordpress-stubs": "^5.4"
+    },
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Jon Sakas",
+            "email": "jon@doubledrop.co"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "phpcs .",
+        "lint:fix": "phpcbf ."
+    }
+}

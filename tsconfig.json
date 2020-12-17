@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es5",
+        "lib": [
+            "ES2015",
+            "DOM"
+        ],
+        "jsx": "react",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@blocks/*": [
+                "blocks/*"
+            ],
+        },
+    },
+    "include": [
+        "./blocks/**/*",
+        "./types/**.d.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "vendor"
+    ]
+}
