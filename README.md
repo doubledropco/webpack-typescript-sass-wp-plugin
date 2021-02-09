@@ -8,7 +8,7 @@ Install PHP dependencies with [Composer](https://getcomposer.org/).
 Install Frontend dependencies with [Yarn](https://yarnpkg.org).
 
 ```
-composer installs
+composer install
 yarn install
 ```
 
